@@ -1,3 +1,11 @@
+import { Link } from 'react-router-dom'
+
 export default function Header() {
-  return <header>My App</header>
+  return <header>
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to="/games">Catalog</Link>
+    <Link to="/login">Login</Link>
+  </nav>
+</header>
 }
